@@ -1,6 +1,6 @@
-> To have no errors
-> Would be life without meaning
-> No struggle, no joy
+> To have no errors <br>
+> Would be life without meaning <br>
+> No struggle, no joy <br>
 > ~ (Brian M. Porter)
 
 
