@@ -24,6 +24,11 @@ try:  # note: py3 compat
 except NameError:
     EnvironmentError = OSError
 
+try:  # note: Windows/Linux compat
+    WindowsError
+except NameError:
+    WindowsError = OSError
+
 try:
     RecursionError
 except NameError:
@@ -192,6 +197,22 @@ _HAIKUS[RecursionError].extend([
     Code has looped upon itself
     like the coiled serpent.
     ~ (Loren DeLaOsa)
+    """,  # [^2]
+])
+
+
+_HAIKUS[WindowsError].extend([
+    """
+    Windows NT crashed.
+    I am the Blue Screen of Death.
+    No one hears your screams.
+    ~ (Peter Rothman)
+    """,  # [^2]
+    """
+    Yesterday it worked.
+    Today it is not working
+    Windows is like that.
+    ~ (Margaret Segall)
     """,  # [^2]
 ])
 
