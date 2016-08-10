@@ -24,7 +24,7 @@ SystemError
 One liner example without explicit `raise`:
 
 ```console
-$ python3 -c "import haiku_errors; raise LookupError"
+$ python3 -c "import haiku_errors; f = lambda: f(); f()"
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
 LookupError
