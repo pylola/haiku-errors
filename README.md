@@ -24,15 +24,15 @@ SystemError
 One liner example without explicit `raise`:
 
 ```console
-$ python -c "import haiku_errors; raise SystemError"
+$ python3 -c "import haiku_errors; raise LookupError"
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
-SystemError
+LookupError
     
-    Something has gone wrong.
-    Format your disk, because this
-    Error won't help you.
-    ~ (Cheryl Walker)
+    The ten thousand things,
+    How long do any persist?
+    Netscape, too, has gone.
+    ~ (Jason Willoughby)
     
 ```
 
