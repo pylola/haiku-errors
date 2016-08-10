@@ -83,6 +83,12 @@ _HAIKUS[FileNotFoundError].extend([
     These words: “File not found.”
     ~ (Len Dvorkin)
     """,  # [^1]
+    """
+    Three things are certain:
+    Death, taxes, and lost data.
+    Guess which has occurred.
+    ~ (David Dixon)
+    """,  # [^1]
 ])
 
 _HAIKUS[IOError].extend([
