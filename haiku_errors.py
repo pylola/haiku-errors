@@ -5,6 +5,7 @@ Haiku sources:
  [1]: https://camtools.cam.ac.uk/wiki/site/5b59f819-0806-4a4d-0046-bcad6b9ac70f/haiku%20error%20messages.html
  [2]: http://baetzler.de/humor/haiku_error.var
  [3]: https://scs.senecac.on.ca/~timothy.mckenna/offline/Haikus.htm
+ [4]: http://members.tripod.com/martin_leese/haiku.html
 
 """  # noqa
 VERSION = (0, 2, 0)  # PEP 386  # noqa
@@ -54,6 +55,12 @@ _HAIKU_FALLBACKS = (
     But the chips were weak.
     ~ (Barry L. Brumitt)
     """,  # [^1]
+    """
+    A crash reduces
+    your expensive computer
+    to a simple stone.
+    ~ (James Lopez)
+    """,  # [^4]
 )
 
 _HAIKUS = defaultdict(list)
@@ -158,6 +165,15 @@ _HAIKUS[EnvironmentError].extend([
     Could have bought a MAC.
     ~ (unknown)
     """,  # [^2]
+])
+
+_HAIKUS[KeyboardInterrupt].extend([
+    """
+    No keyboard present
+    Hit F1 to continue
+    Zen engineering?
+    ~ (Jim Griffith)
+    """,  # [^4]
 ])
 
 _HAIKUS[ZeroDivisionError].extend([
