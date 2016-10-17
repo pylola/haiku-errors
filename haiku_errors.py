@@ -8,7 +8,7 @@ Haiku sources:
  [4]: http://members.tripod.com/martin_leese/haiku.html
 
 """  # noqa
-VERSION = (0, 2, 0)  # PEP 386  # noqa
+VERSION = (0, 3, 0)  # PEP 386  # noqa
 __version__ = ".".join([str(x) for x in VERSION])  # noqa
 
 import sys
